@@ -1,0 +1,32 @@
+{
+  "name": "exception-handler",
+  "version": "1.0.0",
+  "description": "A flexible library for mapping exceptions to custom responses or actions.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": ".mocha tests"
+  },
+  "exports": {
+    ".": "./index.js"
+  },
+  "keywords": [
+    "exception",
+    "handler",
+    "error-handling",
+    "custom-responses",
+    "flexible"
+  ],
+  "author": "christiangenn99@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7",
+    "sinon": "^19.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
